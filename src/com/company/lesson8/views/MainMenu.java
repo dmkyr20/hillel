@@ -1,6 +1,6 @@
-package com.company.lesson8.lesson.views;
+package com.company.lesson8.views;
 
-import com.company.lesson8.lesson.models.User;
+import com.company.lesson8.models.User;
 
 public class MainMenu {
     public static void run(User user) {

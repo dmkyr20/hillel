@@ -1,8 +1,8 @@
-package com.company.lesson8.lesson.exceptions;
+package com.company.lesson8.exceptions;
 
 public class RegistrationException extends Exception {
     public static final String MESSAGE_INVALID_LOGIN = "Invalid login";
-    public static final String MESSAGE_INVALID_PASS = "Invalid pass";
+    public static final String MESSAGE_INVALID_PASS = "Invalid repeated pass";
 
     public RegistrationException() {
         super();

@@ -1,8 +1,8 @@
-package com.company.lesson8.lesson.test;
+package com.company.lesson8.test;
 
-import com.company.lesson8.lesson.models.User;
-import com.company.lesson8.lesson.repositories.UserRepository;
-import com.company.lesson8.lesson.exceptions.CreateException;
+import com.company.lesson8.exceptions.CreateException;
+import com.company.lesson8.models.User;
+import com.company.lesson8.repositories.UserRepository;
 
 public class RepositoryTest {
 

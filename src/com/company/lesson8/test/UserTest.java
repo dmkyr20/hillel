@@ -1,6 +1,6 @@
-package com.company.lesson8.lesson.test;
+package com.company.lesson8.test;
 
-import com.company.lesson8.lesson.models.User;
+import com.company.lesson8.models.User;
 
 public class UserTest {
     public static void main(String[] args) {

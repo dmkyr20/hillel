@@ -1,4 +1,4 @@
-package com.company.lesson8.lesson.models;
+package com.company.lesson8.models;
 
 public class User {
     protected String login;

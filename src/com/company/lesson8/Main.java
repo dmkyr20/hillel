@@ -1,6 +1,6 @@
-package com.company.lesson8.lesson;
+package com.company.lesson8;
 
-import com.company.lesson8.lesson.views.StartMenu;
+import com.company.lesson8.views.StartMenu;
 
 public class Main {
     public static void main(String[] args) {

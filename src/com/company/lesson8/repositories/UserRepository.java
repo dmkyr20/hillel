@@ -1,8 +1,9 @@
-package com.company.lesson8.lesson.repositories;
+package com.company.lesson8.repositories;
 
-import com.company.lesson8.lesson.models.User;
-import com.company.lesson8.lesson.exceptions.CreateException;
-import com.company.lesson8.lesson.exceptions.NotFoundException;
+import com.company.lesson8.exceptions.CreateException;
+import com.company.lesson8.exceptions.NotFoundException;
+import com.company.lesson8.models.User;
+
 import java.util.ArrayList;
 import java.util.List;
 

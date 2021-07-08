@@ -1,8 +1,9 @@
-package com.company.lesson8.lesson.views;
+package com.company.lesson8.views;
 
-import com.company.lesson8.lesson.contorllers.RegistrationController;
-import com.company.lesson8.lesson.exceptions.RegistrationException;
-import com.company.lesson8.lesson.models.User;
+import com.company.lesson8.contorllers.RegistrationController;
+import com.company.lesson8.exceptions.RegistrationException;
+import com.company.lesson8.models.User;
+
 import java.util.Scanner;
 
 public class RegisterView {
@@ -24,15 +25,26 @@ public class RegisterView {
 
             try {
                 User user = controller.register(login, password, password2);
-                MainMenu.run(user);
-                return;
+//                MainMenu.run(user);
+                System.out.println("User " + user.getLogin() + " was successfully registered!");
+                System.out.println("Do you want to try login?");
+                System.out.println("1 - yes");
+                System.out.println("2 - no");
+                int answer = SCANNER.nextInt();
+                if (answer == 1) {
+                    LoginView.run();
+                    break;
+                } else if (answer == 2) {
+                    System.exit(0);
+                } else {
+                    throw new IllegalArgumentException("Unsupported operation: " + answer);
+                }
             } catch (RegistrationException e) {
                 System.out.println("Error: " + e.getMessage());
                 System.out.println("Do you want to try again?");
                 System.out.println("1 - yes");
                 System.out.println("2 - no");
                 int answer = SCANNER.nextInt();
-
                 if (answer == 1) {
                     // do nothing
                 } else if (answer == 2) {

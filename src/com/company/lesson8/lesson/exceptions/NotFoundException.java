@@ -1,4 +1,4 @@
-package com.company.lesson8.exceptions;
+package com.company.lesson8.lesson.exceptions;
 
 public class NotFoundException extends Exception {
     public NotFoundException() {

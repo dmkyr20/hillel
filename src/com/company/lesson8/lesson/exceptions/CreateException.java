@@ -1,4 +1,4 @@
-package com.company.lesson8.exceptions;
+package com.company.lesson8.lesson.exceptions;
 
 public class CreateException extends Exception {
     public CreateException() {

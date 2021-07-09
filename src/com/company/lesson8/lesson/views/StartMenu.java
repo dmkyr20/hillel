@@ -1,4 +1,4 @@
-package com.company.lesson8.views;
+package com.company.lesson8.lesson.views;
 
 import java.util.Scanner;
 

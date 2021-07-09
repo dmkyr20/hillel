@@ -1,8 +1,8 @@
-package com.company.lesson8.views;
+package com.company.lesson8.lesson.views;
 
-import com.company.lesson8.contorllers.RegistrationController;
-import com.company.lesson8.exceptions.RegistrationException;
-import com.company.lesson8.models.User;
+import com.company.lesson8.lesson.contorllers.RegistrationController;
+import com.company.lesson8.lesson.exceptions.RegistrationException;
+import com.company.lesson8.lesson.models.User;
 
 import java.util.Scanner;
 

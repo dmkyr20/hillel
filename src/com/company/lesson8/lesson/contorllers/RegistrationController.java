@@ -1,10 +1,10 @@
-package com.company.lesson8.contorllers;
+package com.company.lesson8.lesson.contorllers;
 
-import com.company.lesson8.exceptions.CreateException;
-import com.company.lesson8.exceptions.RegistrationException;
-import com.company.lesson8.models.User;
-import com.company.lesson8.repositories.UserRepository;
-import com.company.lesson8.exceptions.NotFoundException;
+import com.company.lesson8.lesson.exceptions.CreateException;
+import com.company.lesson8.lesson.exceptions.RegistrationException;
+import com.company.lesson8.lesson.models.User;
+import com.company.lesson8.lesson.repositories.UserRepository;
+import com.company.lesson8.lesson.exceptions.NotFoundException;
 
 public class RegistrationController {
     private final UserRepository repository = new UserRepository();
